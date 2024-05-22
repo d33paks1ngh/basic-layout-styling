@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+#nav {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 20px;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+}
+#nav i {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 100;
+}
+#midsection {
+  width: 100%;
+  padding: 10px 80px;
+  font-size: 30px;
+  line-height: 65px;
+  font-family: sans-serif;
+
+  /* background-color: pink; */
+}
+#midsection h1 {
+  font-weight: 500;
+}
+#bottom {
+  /* background-color: orange; */
+  margin: 0px 80px;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+#bottom-left p {
+  font: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 100%;
+}
+#bottom-right {
+  /* height: 80px; */
+  width: 20%;
+  /* background-color: yellow; */
+}
+.elem {
+  margin: 5px;
+  padding: 10px 0px;
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.elem i {
+  opacity: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.elem a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+.elem:hover i {
+  opacity: 1;
+}
+.elem:hover {
+  background-color: rgb(240, 237, 237);
+}
+.elem:hover a {
+  text-decoration: underline;
+}
+#last {
+  margin-top: 12px;
+  height: 37.5%;
+  width: 100%;
+  background-color: black;
+  background-image: url(model3.jpg);
+  background-size: cover;
+  background-position: 0 43%;
+}
+#last img {
+  rotate: 45deg;
+}
